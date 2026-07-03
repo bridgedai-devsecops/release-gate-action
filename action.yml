@@ -49,6 +49,9 @@ inputs:
   organization-id:
     description: 'Organization id when integration=api.'
     required: false
+  org-id:
+    description: 'Alias for organization-id.'
+    required: false
   fail-on-deny:
     description: 'Fail when decision is BLOCK/deny.'
     required: false
